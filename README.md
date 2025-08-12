@@ -1,8 +1,4 @@
 
-# Let's create a README.md file with the password strength evaluation content in Markdown format.
-
-readme_content = """# Password Strength Evaluation Report
-
 ## Objective
 Understand what makes a password strong by creating multiple passwords with varying complexity, testing them using online password strength checkers, and analyzing the results to determine best practices.
 
@@ -61,12 +57,3 @@ Password strength is determined by **length**, **complexity**, and **uniqueness*
 Short or simple passwords are vulnerable to brute force and dictionary attacks.  
 A combination of strong passwords and **multi-factor authentication (MFA)** provides the highest security.
 """
-
-# Save to README.md file
-file_path = "/mnt/data/README.md"
-with open(file_path, "w") as file:
-    file.write(readme_content)
-
-file_path
-Result
-'/mnt/data/README.md'
